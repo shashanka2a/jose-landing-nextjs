@@ -2,7 +2,7 @@
   "name": "por-obra-y-gracia-landing",
   "version": "1.0.0",
   "private": true,
-  "description": "Por Obra Y Gracia - Authentic Spanish Cuisine Landing Page",
+  "description": "Jose Manuel - Authentic Spanish Tortillas & Paellas Landing Page",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

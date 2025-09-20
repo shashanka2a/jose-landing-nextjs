@@ -18,7 +18,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-xl text-amber-900 font-serif">Por Obra Y Gracia</h1>
+            <h1 className="text-xl text-amber-900 font-serif">Jose Manuel</h1>
           </div>
 
           {/* Desktop Navigation */}

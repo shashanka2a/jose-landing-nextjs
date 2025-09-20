@@ -7,9 +7,9 @@ import { MessageCircle, Clock, Truck } from "lucide-react";
 export function OrderWhatsApp() {
   const handleWhatsAppOrder = () => {
     const message = encodeURIComponent(
-      "Hola José! I'd like to place an order for Por Obra Y Gracia. Could you please share today's available menu?"
+      "Hola José! I'd like to place an order for Jose Manuel. Could you please share today's available menu?"
     );
-    window.open(`https://wa.me/13054567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/15616632564?text=${message}`, '_blank');
   };
 
   return (

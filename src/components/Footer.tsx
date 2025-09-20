@@ -5,9 +5,9 @@ import { Heart, Instagram, MessageCircle } from "lucide-react";
 export function Footer() {
   const handleWhatsApp = () => {
     const message = encodeURIComponent(
-      "Hola José! I have a question about Por Obra Y Gracia."
+      "Hola José! I have a question about Jose Manuel."
     );
-    window.open(`https://wa.me/13054567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/15616632564?text=${message}`, '_blank');
   };
 
   const handleInstagram = () => {
@@ -20,7 +20,7 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl mb-4 font-serif">Por Obra Y Gracia</h3>
+            <h3 className="text-2xl mb-4 font-serif">Jose Manuel</h3>
             <p className="text-amber-200 mb-4">
               Authentic Spanish flavors delivered fresh to FIU students and Miami locals. 
               From engineering precision to culinary passion - every dish crafted with love.
@@ -78,8 +78,8 @@ export function Footer() {
           <div>
             <h4 className="text-lg mb-4">Contact</h4>
             <div className="space-y-2 text-amber-200">
-              <p>WhatsApp: +1 (305) 456-7890</p>
-              <p>Email: jose@porobraygacia.com</p>
+              <p>WhatsApp: +1 (561) 663-2564</p>
+              <p>Email: jose@josemanuel.com</p>
               <p>Service Area: Miami-Dade County</p>
               <p className="text-sm mt-4">
                 Tuesday - Sunday: 11 AM - 7 PM<br />
@@ -93,7 +93,7 @@ export function Footer() {
           <p className="flex items-center justify-center gap-2">
             Made with <Heart className="w-4 h-4 fill-current text-red-400" /> by Chef José
           </p>
-          <p className="text-sm mt-2">© 2025 Por Obra Y Gracia. All rights reserved.</p>
+          <p className="text-sm mt-2">© 2025 Jose Manuel. All rights reserved.</p>
         </div>
       </div>
     </footer>

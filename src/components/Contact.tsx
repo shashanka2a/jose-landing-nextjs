@@ -7,9 +7,9 @@ import { MapPin, Phone, Clock, MessageCircle, Instagram } from "lucide-react";
 export function Contact() {
   const handleWhatsApp = () => {
     const message = encodeURIComponent(
-      "Hola José! I have a question about Por Obra Y Gracia."
+      "Hola José! I have a question about Jose Manuel."
     );
-    window.open(`https://wa.me/13054567890?text=${message}`, '_blank');
+    window.open(`https://wa.me/15616632564?text=${message}`, '_blank');
   };
 
   const handleInstagram = () => {
@@ -64,7 +64,7 @@ export function Contact() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-gray-600 mb-4">
-                WhatsApp: +1 (305) 456-7890<br />
+                WhatsApp: +1 (561) 663-2564<br />
                 Email: jose@porobraygacia.com<br />
                 Instagram: @porobraygacia_
               </CardDescription>

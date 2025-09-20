@@ -21,7 +21,7 @@ export function Hero() {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="mb-6">
           <h1 className="text-4xl md:text-6xl text-white mb-4 font-serif">
-            Por Obra Y Gracia
+            Jose Manuel
           </h1>
           <p className="text-xl md:text-2xl text-amber-100 mb-8">
             Authentic Tortillas & Paellas from Jose&apos;s Kitchen

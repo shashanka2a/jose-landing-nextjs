@@ -8,10 +8,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Por Obra Y Gracia - Authentic Mexican Cuisine",
-  description: "Experience the authentic flavors of Mexico with our traditional recipes and fresh ingredients. Order now for delivery or pickup.",
-  keywords: "Mexican food, authentic cuisine, delivery, pickup, traditional recipes",
-  authors: [{ name: "Por Obra Y Gracia" }],
+  title: "Jose Manuel - Authentic Spanish Tortillas & Paellas",
+  description: "Experience authentic Spanish tortillas and paellas crafted with passion. Fresh ingredients and traditional recipes delivered to FIU students and Miami locals.",
+  keywords: "Spanish food, tortillas, paellas, authentic cuisine, delivery, FIU, Miami",
+  authors: [{ name: "Jose Manuel" }],
 };
 
 export const viewport = {
