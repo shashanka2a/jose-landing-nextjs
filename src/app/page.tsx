@@ -3,7 +3,6 @@
 import { Navigation } from "@/components/Navigation";
 import { Hero } from "@/components/Hero";
 import { AboutJose } from "@/components/AboutJose";
-import { OurStory } from "@/components/OurStory";
 import { WeeklyMenu } from "@/components/WeeklyMenu";
 import { OrderWhatsApp } from "@/components/OrderWhatsApp";
 import { Testimonials } from "@/components/Testimonials";
@@ -17,9 +16,6 @@ export default function Home() {
       <Hero />
       <div id="about">
         <AboutJose />
-      </div>
-      <div id="story">
-        <OurStory />
       </div>
       <WeeklyMenu />
       <OrderWhatsApp />

@@ -11,20 +11,18 @@ export function AboutJose() {
             </h2>
             <div className="space-y-4 text-gray-700 text-lg">
               <p>
-                After decades as a civil engineer specializing in hydraulic projects, José discovered 
-                his true calling in the kitchen. What started as weekend cooking for friends became 
-                a passion that would eventually transform his life in Miami.
+                José specializes in two authentic Spanish dishes: traditional tortillas and paellas. 
+                His family recipes have been passed down through generations, each technique learned 
+                at his grandmother&apos;s side in Spain.
               </p>
               <p>
-                José&apos;s Spanish heritage runs deep - his family recipes have been passed down through 
-                generations, each dish telling a story of tradition and love. From the perfect 
-                saffron-to-rice ratio in paella to the creamy texture of authentic tortilla española, 
-                every technique was learned at his grandmother&apos;s side.
+                From the perfect saffron-to-rice ratio in paella to the creamy texture of authentic 
+                tortilla española, José brings decades of tradition to every dish. He takes pride in 
+                serving the FIU community and Miami locals with these two signature specialties.
               </p>
               <p>
-                Now retired from engineering, José has channeled his precision and attention to detail 
-                into creating exceptional Spanish cuisine. He takes pride in serving the FIU community 
-                and Miami locals, bringing authentic flavors straight from his kitchen to your table.
+                Every tortilla and paella is prepared with the same care José would use for his own 
+                family, bringing authentic Spanish flavors straight from his kitchen to your table.
               </p>
             </div>
           </div>

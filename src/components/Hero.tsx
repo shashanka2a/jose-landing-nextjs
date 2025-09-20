@@ -24,10 +24,10 @@ export function Hero() {
             Por Obra Y Gracia
           </h1>
           <p className="text-xl md:text-2xl text-amber-100 mb-8">
-            Authentic Spanish Flavors, Straight from Jose&apos;s Kitchen
+            Authentic Tortillas & Paellas from Jose&apos;s Kitchen
           </p>
           <p className="text-lg text-white/90 max-w-2xl mx-auto mb-8">
-            From engineering to the kitchen - discover traditional Spanish cuisine crafted with passion and delivered fresh to FIU students and Miami locals.
+            Traditional Spanish tortillas and paellas crafted with passion and delivered fresh to FIU students and Miami locals.
           </p>
         </div>
         

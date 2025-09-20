@@ -35,22 +35,6 @@ export function WeeklyMenu() {
       image: "https://images.unsplash.com/photo-1607877200978-3cab430e00cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdG9ydGlsbGElMjBwb3RhdG98ZW58MXx8fHwxNzU4Mzc1NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Vegetarian", "Fresh"],
       category: "Tortillas"
-    },
-    {
-      name: "Tapas Selection",
-      description: "Assorted Spanish tapas: olives, manchego, jamón, and more",
-      price: "$22",
-      image: "https://images.unsplash.com/photo-1607877200978-3cab430e00cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdGFwYXMlMjBvbGl2ZXN8ZW58MXx8fHwxNzU4Mzc1ODkyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Sharing", "Authentic"],
-      category: "Tapas"
-    },
-    {
-      name: "Weekly Special",
-      description: "Ask José about this week's special creation - always a surprise!",
-      price: "$Market",
-      image: "https://images.unsplash.com/photo-1667579235612-c9e3961b9fba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwZm9vZCUyMGRlbGl2ZXJ5fGVufDF8fHx8MTc1ODM3NTY2N3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
-      tags: ["Seasonal", "Limited"],
-      category: "Specials"
     }
   ];
 
@@ -59,11 +43,11 @@ export function WeeklyMenu() {
       <div className="max-w-6xl mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl text-amber-900 mb-4 font-serif">
-            Weekly Menu
+            Tortillas & Paellas
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Freshly prepared daily with authentic ingredients imported from Spain. 
-            Menu changes weekly to showcase seasonal specialties.
+            José specializes in these two traditional Spanish dishes.
           </p>
         </div>
 
