@@ -32,8 +32,8 @@ export function Footer() {
               <h3 className="text-2xl font-serif">Jose Manuel</h3>
             </div>
             <p className="text-amber-200 mb-4">
-              Authentic Spanish flavors delivered fresh to FIU students and Miami locals. 
-              From engineering precision to culinary passion - every dish crafted with love.
+              Authentic Spanish flavors delivered fresh. 
+              Every dish crafted with love and precision.
             </p>
             <div className="flex gap-4">
               <button 

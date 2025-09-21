@@ -4,27 +4,27 @@ import { Star } from "lucide-react";
 export function Testimonials() {
   const testimonials = [
     {
-      name: "Sofia Martinez",
+      name: "Sarah M.",
       location: "FIU Student",
-      text: "José's tortilla española reminds me of my abuela's cooking back home. Perfect comfort food during finals week!",
+      text: "Finally found real Spanish food in Miami! The tortilla is exactly like what I had in Madrid. José is so friendly and always remembers my order.",
       rating: 5
     },
     {
-      name: "Carlos Rodriguez",
-      location: "FIU Graduate Student",
-      text: "The paella feeds my whole study group! José is so kind and the food is always fresh and delicious. Best value around campus.",
+      name: "David K.",
+      location: "Coral Gables Resident",
+      text: "Ordered the paella for a dinner party and everyone loved it. Fresh ingredients and authentic taste. Will definitely order again!",
       rating: 5
     },
     {
-      name: "Amanda Chen",
-      location: "Coral Gables Neighbor",
-      text: "Discovered José through my FIU friends and now I'm a regular! His passion for cooking really shows in every dish.",
-      rating: 5
+      name: "Maria L.",
+      location: "FIU Graduate",
+      text: "Been ordering from José for months now. The croquetas are incredible and the delivery is always on time. Highly recommend!",
+      rating: 4
     },
     {
-      name: "Miguel Santos",
-      location: "FIU Student",
-      text: "As a Venezuelan student, finding authentic Spanish food here is amazing. José's tapas selection is incredible!",
+      name: "James R.",
+      location: "Local Business Owner",
+      text: "Great food at reasonable prices. The gazpacho is perfect for Miami weather. José's customer service is top-notch.",
       rating: 5
     }
   ];
@@ -66,7 +66,7 @@ export function Testimonials() {
           <div className="bg-white rounded-lg p-8 max-w-2xl mx-auto shadow-md">
             <h3 className="text-xl text-amber-900 mb-4">Join Our Happy Customers</h3>
             <p className="text-gray-600 mb-6">
-              Experience authentic Spanish flavors loved by FIU students and Miami locals alike.
+              Experience authentic Spanish flavors loved by our community.
             </p>
             <div className="flex justify-center items-center gap-2 text-amber-600">
               <div className="flex">
@@ -74,7 +74,7 @@ export function Testimonials() {
                   <Star key={i} className="w-5 h-5 fill-current" />
                 ))}
               </div>
-              <span className="text-lg">4.9/5 from 100+ happy customers</span>
+              <span className="text-lg">4.8/5 from 50+ happy customers</span>
             </div>
           </div>
         </div>

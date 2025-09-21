@@ -17,9 +17,7 @@ export function AboutJose() {
               </p>
               <p>
                 From the perfect saffron-to-rice ratio in paella to the creamy texture of authentic 
-                tortilla española, from hearty cocido madrileño to delicate crema catalana, José brings 
-                decades of tradition to every dish. He takes pride in serving the FIU community and 
-                Miami locals with his complete Spanish menu.
+                tortilla española, José brings decades of tradition to every dish.
               </p>
               <p>
                 Every dish is prepared with the same care José would use for his own family, bringing 

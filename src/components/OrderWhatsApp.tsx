@@ -19,7 +19,6 @@ export function OrderWhatsApp() {
           Easy Ordering
         </h2>
         <p className="text-lg text-amber-100 mb-12 max-w-2xl mx-auto">
-          Simple WhatsApp ordering with free delivery to FIU campus and surrounding areas. 
           No apps, no fees - just message José directly!
         </p>
 
@@ -31,7 +30,7 @@ export function OrderWhatsApp() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-amber-100">
-                Message José directly to check daily availability and place your order
+                Message José directly for daily availability
               </CardDescription>
             </CardContent>
           </Card>
@@ -43,7 +42,7 @@ export function OrderWhatsApp() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-amber-100">
-                All dishes prepared fresh to order. 2-3 hours advance notice recommended
+                All dishes prepared fresh to order
               </CardDescription>
             </CardContent>
           </Card>
@@ -55,7 +54,7 @@ export function OrderWhatsApp() {
             </CardHeader>
             <CardContent>
               <CardDescription className="text-amber-100">
-                Free delivery to FIU campus and within 5 miles of Coral Gables
+                Free delivery within 5 miles of Coral Gables
               </CardDescription>
             </CardContent>
           </Card>
@@ -66,7 +65,6 @@ export function OrderWhatsApp() {
           <div className="text-amber-100 space-y-2">
             <p><span className="font-medium">Tuesday - Sunday:</span> 11:00 AM - 7:00 PM</p>
             <p><span className="font-medium">Monday:</span> Closed</p>
-            <p className="text-sm mt-4">Last orders accepted 2 hours before closing</p>
           </div>
         </div>
 
