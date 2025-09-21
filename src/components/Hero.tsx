@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
@@ -20,6 +21,15 @@ export function Hero() {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="mb-6">
+          <div className="flex justify-center mb-6">
+            <Image 
+              src="/logo.jpeg" 
+              alt="Jose Manuel Logo" 
+              width={80}
+              height={80}
+              className="w-20 h-20 rounded-full object-cover border-4 border-amber-200 shadow-lg"
+            />
+          </div>
           <h1 className="text-4xl md:text-6xl text-white mb-4 font-serif">
             Jose Manuel
           </h1>
@@ -42,7 +52,7 @@ export function Hero() {
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-black px-8 py-3 text-lg"
+            className="border-white text-black bg-white hover:bg-gray-100 hover:text-black px-8 py-3 text-lg"
             onClick={() => document.getElementById('order')?.scrollIntoView({ behavior: 'smooth' })}
           >
             Order Now

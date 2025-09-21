@@ -23,7 +23,7 @@ export function WeeklyMenu() {
       name: "Tortilla Española",
       description: "Traditional Spanish omelet with eggs, potatoes, onion, chorizo, and piquillo pepper",
       price: "Individual: $10 | Medium: $17 | Large: $25",
-      image: "https://images.unsplash.com/photo-1607877200978-3cab430e00cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdG9ydGlsbGElMjBwb3RhdG98ZW58MXx8fHwxNzU4Mzc1NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdG9ydGlsbGElMjBjaG9yaXpvJTIwcGlxdWlsb3xlbnwxfHx8fDE3NTgzNzU2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Traditional", "Popular"],
       category: "Tortillas"
     },
@@ -31,7 +31,7 @@ export function WeeklyMenu() {
       name: "Tortilla del Huerto",
       description: "Garden tortilla with eggs, potatoes, bell pepper, and asparagus",
       price: "Individual: $8 | Medium: $14 | Large: $20",
-      image: "https://images.unsplash.com/photo-1607877200978-3cab430e00cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdG9ydGlsbGElMjBwb3RhdG98ZW58MXx8fHwxNzU4Mzc1NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdG9ydGlsbGElMjBhc3BhcmFndXMlMjBwZXBwZXJzfGVufDF8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Vegetarian", "Fresh"],
       category: "Tortillas"
     },
@@ -40,7 +40,7 @@ export function WeeklyMenu() {
       name: "Paella Mar y Tierra",
       description: "Sea and land paella with rice, saffron, bell pepper, peas, seafood assortment, mixed meats, and chorizo",
       price: "$22 per serving",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwcGFlbGxhJTIwc2VhZm9vZHxlbnwxfHx8fDE3NTgzNjE1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1746587293135-7a59f5764cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwcGFlbGxhJTIwc2VhZm9vZHxlbnwxfHx8fDE3NTgzNjE1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Premium", "Mixed"],
       category: "Paellas"
     },
@@ -56,7 +56,7 @@ export function WeeklyMenu() {
       name: "Paella Cazadora",
       description: "Hunter's paella with rice, saffron, bell pepper, peas, pork, chicken, beef, and chorizo",
       price: "$16 per serving",
-      image: "https://images.unsplash.com/photo-1746587293135-7a59f5764cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwcGFlbGxhJTIwc2VhZm9vZHxlbnwxfHx8fDE3NTgzNjE1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwbWVhdCUyMHBhZWxsYXxlbnwxfHx8fDE3NTgzNzU2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Meat", "Traditional"],
       category: "Paellas"
     },
@@ -64,7 +64,7 @@ export function WeeklyMenu() {
       name: "Paella del Huerto",
       description: "Garden paella with rice, saffron, bell pepper, peas, green beans, asparagus, and artichokes",
       price: "$15 per serving",
-      image: "https://images.unsplash.com/photo-1746587293135-7a59f5764cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwcGFlbGxhJTIwc2VhZm9vZHxlbnwxfHx8fDE3NTgzNjE1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdmVnZXRhYmxlJTIwcGFlbGxhfGVufDF8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Vegetarian", "Fresh"],
       category: "Paellas"
     },
@@ -72,7 +72,7 @@ export function WeeklyMenu() {
       name: "Arroz con Pollo",
       description: "Chicken rice with saffron, bell pepper, paprika, peas, vegetable coloring, chicken thigh and breast (2 pieces per person)",
       price: "$14 per serving",
-      image: "https://images.unsplash.com/photo-1746587293135-7a59f5764cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwcGFlbGxhJTIwc2VhZm9vZHxlbnwxfHx8fDE3NTgzNjE1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwcmljZSUyMHNhZmZyb258ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       tags: ["Chicken", "Traditional"],
       category: "Paellas"
     },
@@ -265,72 +265,71 @@ export function WeeklyMenu() {
         {/* Category Navigation */}
         <div className="mb-8">
           <div className="flex flex-wrap justify-center gap-2 mb-6">
-            {categories.map((category) => (
-              <Button
-                key={category}
-                variant={activeCategory === category ? "default" : "outline"}
-                onClick={() => scrollToSection(category)}
-                className={`px-4 py-2 rounded-full transition-all ${
-                  activeCategory === category
-                    ? "bg-amber-600 text-white hover:bg-amber-700"
-                    : "border-amber-300 text-amber-700 hover:bg-amber-50"
-                }`}
-              >
-                {category}
-              </Button>
-            ))}
+            {categories.map((category) => {
+              const itemCount = menuItems.filter(item => item.category === category).length;
+              return (
+                <Button
+                  key={category}
+                  variant={activeCategory === category ? "default" : "outline"}
+                  onClick={() => scrollToSection(category)}
+                  className={`px-4 py-2 rounded-full transition-all ${
+                    activeCategory === category
+                      ? "bg-amber-600 text-white hover:bg-amber-700"
+                      : "border-amber-300 text-amber-700 hover:bg-amber-50"
+                  }`}
+                >
+                  {category} ({itemCount})
+                </Button>
+              );
+            })}
           </div>
         </div>
 
-        {/* Menu Sections */}
-        {categories.map((category) => {
-          const categoryItems = menuItems.filter(item => item.category === category);
+        {/* Menu Section - Show only selected category */}
+        {(() => {
+          const categoryItems = menuItems.filter(item => item.category === activeCategory);
           return (
-            <div
-              key={category}
-              id={`section-${category.toLowerCase().replace(/\s+/g, '-')}`}
-              className="mb-16"
-            >
+            <div className="mb-16">
               <h3 className="text-2xl md:text-3xl text-amber-900 mb-6 font-serif border-b-2 border-amber-200 pb-2">
-                {category}
+                {activeCategory}
               </h3>
               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {categoryItems.map((item, index) => (
-                  <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
-                    <div className="relative h-48">
-                      <ImageWithFallback
-                        src={item.image}
-                        alt={item.name}
-                        className="w-full h-full object-cover"
-                        width={400}
-                        height={192}
-                        sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
-                      />
+            <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
+              <div className="relative h-48">
+                <ImageWithFallback
+                  src={item.image}
+                  alt={item.name}
+                  className="w-full h-full object-cover"
+                  width={400}
+                  height={192}
+                  sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
+                />
                       <div className="absolute top-3 right-3 bg-amber-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                        {item.price}
-                      </div>
-                    </div>
-                    <CardHeader>
+                  {item.price}
+                </div>
+              </div>
+              <CardHeader>
                       <CardTitle className="text-amber-900 text-lg">{item.name}</CardTitle>
                       <CardDescription className="text-gray-600 text-sm">
-                        {item.description}
-                      </CardDescription>
-                    </CardHeader>
-                    <CardContent>
-                      <div className="flex flex-wrap gap-2">
-                        {item.tags.map((tag, tagIndex) => (
+                  {item.description}
+                </CardDescription>
+              </CardHeader>
+              <CardContent>
+                <div className="flex flex-wrap gap-2">
+                  {item.tags.map((tag, tagIndex) => (
                           <Badge key={tagIndex} variant="secondary" className="bg-amber-100 text-amber-800 text-xs">
-                            {tag}
-                          </Badge>
-                        ))}
-                      </div>
-                    </CardContent>
-                  </Card>
-                ))}
-              </div>
+                      {tag}
+                    </Badge>
+                  ))}
+                </div>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
             </div>
           );
-        })}
+        })()}
 
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-4">
