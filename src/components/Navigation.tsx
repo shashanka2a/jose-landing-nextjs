@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 
@@ -18,9 +19,11 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-3">
-            <img 
+            <Image 
               src="/logo.jpeg" 
               alt="Jose Manuel Logo" 
+              width={40}
+              height={40}
               className="w-10 h-10 rounded-full object-cover"
             />
             <h1 className="text-xl text-amber-900 font-serif">Jose Manuel</h1>

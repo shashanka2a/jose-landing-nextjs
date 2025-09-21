@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Heart, Instagram, MessageCircle } from "lucide-react";
 
 export function Footer() {
@@ -21,9 +22,11 @@ export function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <img 
+              <Image 
                 src="/logo.jpeg" 
                 alt="Jose Manuel Logo" 
+                width={48}
+                height={48}
                 className="w-12 h-12 rounded-full object-cover"
               />
               <h3 className="text-2xl font-serif">Jose Manuel</h3>
