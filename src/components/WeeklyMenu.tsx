@@ -15,7 +15,7 @@ export function WeeklyMenu() {
       name: "Tortilla de Patatas",
       description: "Classic Spanish potato omelet with eggs, potatoes, and caramelized onion - thick and creamy",
       price: "Individual: $8 | Medium: $15 | Large: $18",
-      image: "https://images.unsplash.com/photo-1607877200978-3cab430e00cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdG9ydGlsbGElMjBwb3RhdG98ZW58MXx8fHwxNzU4Mzc1NjY2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1607877200978-3cab430e00cd?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Classic", "Vegetarian"],
       category: "Tortillas"
     },
@@ -23,7 +23,7 @@ export function WeeklyMenu() {
       name: "Tortilla Española",
       description: "Traditional Spanish omelet with eggs, potatoes, onion, chorizo, and piquillo pepper",
       price: "Individual: $10 | Medium: $17 | Large: $25",
-      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdG9ydGlsbGElMjBjaG9yaXpvJTIwcGlxdWlsb3xlbnwxfHx8fDE3NTgzNzU2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Traditional", "Popular"],
       category: "Tortillas"
     },
@@ -31,7 +31,7 @@ export function WeeklyMenu() {
       name: "Tortilla del Huerto",
       description: "Garden tortilla with eggs, potatoes, bell pepper, and asparagus",
       price: "Individual: $8 | Medium: $14 | Large: $20",
-      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdG9ydGlsbGElMjBhc3BhcmFndXMlMjBwZXBwZXJzfGVufDF8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Vegetarian", "Fresh"],
       category: "Tortillas"
     },
@@ -40,7 +40,7 @@ export function WeeklyMenu() {
       name: "Paella Mar y Tierra",
       description: "Sea and land paella with rice, saffron, bell pepper, peas, seafood assortment, mixed meats, and chorizo",
       price: "$22 per serving",
-      image: "https://images.unsplash.com/photo-1746587293135-7a59f5764cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwcGFlbGxhJTIwc2VhZm9vZHxlbnwxfHx8fDE3NTgzNjE1Nzd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1625937759424-8b4444a8b2b1?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Premium", "Mixed"],
       category: "Paellas"
     },
@@ -48,7 +48,7 @@ export function WeeklyMenu() {
       name: "Paella del Mar",
       description: "Seafood paella with rice, saffron, bell pepper, shrimp, octopus, cod, seafood assortment, and peas",
       price: "$20 per serving",
-      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwc2VyaW91cyUyMHBhZWxsYXxlbnwxfHx8fDE3NTgzNzU2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Seafood", "Premium"],
       category: "Paellas"
     },
@@ -56,7 +56,7 @@ export function WeeklyMenu() {
       name: "Paella Cazadora",
       description: "Hunter's paella with rice, saffron, bell pepper, peas, pork, chicken, beef, and chorizo",
       price: "$16 per serving",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwbWVhdCUyMHBhZWxsYXxlbnwxfHx8fDE3NTgzNzU2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Meat", "Traditional"],
       category: "Paellas"
     },
@@ -64,7 +64,7 @@ export function WeeklyMenu() {
       name: "Paella del Huerto",
       description: "Garden paella with rice, saffron, bell pepper, peas, green beans, asparagus, and artichokes",
       price: "$15 per serving",
-      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdmVnZXRhYmxlJTIwcGFlbGxhfGVufDF8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Vegetarian", "Fresh"],
       category: "Paellas"
     },
@@ -72,7 +72,7 @@ export function WeeklyMenu() {
       name: "Arroz con Pollo",
       description: "Chicken rice with saffron, bell pepper, paprika, peas, vegetable coloring, chicken thigh and breast (2 pieces per person)",
       price: "$14 per serving",
-      image: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwcmljZSUyMHNhZmZyb258ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Chicken", "Traditional"],
       category: "Paellas"
     },
@@ -81,7 +81,7 @@ export function WeeklyMenu() {
       name: "Cocido Madrileño",
       description: "Madrid Stew with chickpeas, onion, white cabbage, carrot, pork rib, bacon, and serrano ham",
       price: "$12 per serving",
-      image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwc3RldyUyMGNoaWNrcGVhc3xlbnwxfHx8fDE3NTgzNzU2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Traditional", "Hearty"],
       category: "Pot Dishes"
     },
@@ -89,7 +89,7 @@ export function WeeklyMenu() {
       name: "Fabada Asturiana",
       description: "Asturian Bean Stew with beans, chorizo, pork rib, potato-chickpeas, onion, white cabbage, carrot, bacon, and serrano ham",
       price: "$14 per serving",
-      image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwYmVhbiUyMHN0ZXd8ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Traditional", "Hearty"],
       category: "Pot Dishes"
     },
@@ -97,7 +97,7 @@ export function WeeklyMenu() {
       name: "Champiñones al Ajillo",
       description: "Garlic Mushrooms sautéed with garlic and olive oil",
       price: "$10 per serving",
-      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwbXVzaHJvb21zJTIwZ2FybGljfGVufDF8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Vegetarian", "Garlic"],
       category: "Pot Dishes"
     },
@@ -105,7 +105,7 @@ export function WeeklyMenu() {
       name: "Gambas al Ajillo",
       description: "Garlic Shrimp with tender garlic, spicy paprika, and olive oil",
       price: "$15 per serving",
-      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwc2hyaW1wJTIwZ2FybGljfGVufDF8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Seafood", "Garlic"],
       category: "Pot Dishes"
     },
@@ -114,7 +114,7 @@ export function WeeklyMenu() {
       name: "Natillas",
       description: "Traditional Spanish custard dessert",
       price: "$8",
-      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwY3VzdGFyZCUyMGRlc3NlcnR8ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Dessert", "Creamy"],
       category: "Desserts"
     },
@@ -122,7 +122,7 @@ export function WeeklyMenu() {
       name: "Crema Catalana",
       description: "Catalan Cream - Spanish version of crème brûlée",
       price: "$10",
-      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwY3JlbWUlMjBicnVsZWV8ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Dessert", "Premium"],
       category: "Desserts"
     },
@@ -130,7 +130,7 @@ export function WeeklyMenu() {
       name: "Leche Nevada",
       description: "Snowy Milk - Spanish meringue dessert",
       price: "$6",
-      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwbWVyaW5ndWUlMjBkZXNzZXJ0fGVufDF8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Dessert", "Light"],
       category: "Desserts"
     },
@@ -139,7 +139,7 @@ export function WeeklyMenu() {
       name: "Sangria",
       description: "Traditional Spanish red wine punch with fruits",
       price: "1L: $12 | 1 Gallon: $30",
-      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwc2FuZ3JpYXxlbnwxfHx8fDE3NTgzNzU2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Beverage", "Traditional"],
       category: "Beverages"
     },
@@ -147,7 +147,7 @@ export function WeeklyMenu() {
       name: "Zurracapote",
       description: "Spanish punch similar to sangria with fruits and wine",
       price: "1L: $12 | 1 Gallon: $30",
-      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwcHVuY2glMjBkcmlua3xlbnwxfHx8fDE3NTgzNzU2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1544148103-0773bf10d330?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Beverage", "Traditional"],
       category: "Beverages"
     },
@@ -156,7 +156,7 @@ export function WeeklyMenu() {
       name: "Ciento de Tapas",
       description: "One hundred tapas of choice including cheese, serrano ham, bell pepper, chorizo, fish, and shrimp",
       price: "$70",
-      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwdGFwYXMlMjBzZWxlY3Rpb258ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Sharing", "Variety"],
       category: "Tapas"
     },
@@ -165,7 +165,7 @@ export function WeeklyMenu() {
       name: "Docena Bocadillos",
       description: "Dozen sandwiches of choice including cheese, ham, salmon, chorizo, turkey, chicken, and egg",
       price: "$25",
-      image: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwc2FuZHdpY2hlcyUyMGJvY2FkaWxsb3N8ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Sharing", "Variety"],
       category: "Sandwiches"
     },
@@ -174,7 +174,7 @@ export function WeeklyMenu() {
       name: "Empanada Gallega",
       description: "Galician empanada with caramelized onion, bell pepper, tomato, sardines or tuna, green olive, and hard-boiled egg",
       price: "6x10\": $9 | 9x12\": $16 | 13x13\": $30",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwZW1wYW5hZGF8ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Baked", "Traditional"],
       category: "Baked Goods"
     },
@@ -182,7 +182,7 @@ export function WeeklyMenu() {
       name: "Hornazo de Salamanca",
       description: "Salamanca hornazo with pork loin, Cantimpalo chorizo, Serrano ham, and piquillo pepper wrapped in dough",
       price: "6x10\": $12 | 9x12\": $22 | 13x13\": $35",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcGFuaXNoJTIwaG9ybmF6b3xlbnwxfHx8fDE3NTgzNzU2Njd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Baked", "Premium"],
       category: "Baked Goods"
     },
@@ -191,7 +191,7 @@ export function WeeklyMenu() {
       name: "Espárragos con Pimientos",
       description: "Asparagus with peppers - fresh green asparagus topped with diced red and green bell peppers",
       price: "$12 per serving",
-      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhc3BhcmFndXMlMjBwZXBwZXJzfGVufDF8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Vegetarian", "Fresh"],
       category: "Vegetables"
     },
@@ -199,7 +199,7 @@ export function WeeklyMenu() {
       name: "Pechuga Pollo Salsa Almendras",
       description: "Chicken breast with almond sauce served with golden french fries",
       price: "$16 per serving",
-      image: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaGlja2VuJTIwYWxtb25kJTIwc2F1Y2V8ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Chicken", "Creamy"],
       category: "Main Dishes"
     },
@@ -207,7 +207,7 @@ export function WeeklyMenu() {
       name: "Gambas al Ajillo con Garbanzos",
       description: "Garlic shrimp with chickpeas in a rich broth with large shrimp",
       price: "$18 per serving",
-      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzaHJpbXAlMjBnYXJsaWMlMjBjaGlja3BlYXN8ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Seafood", "Garlic"],
       category: "Main Dishes"
     },
@@ -215,7 +215,7 @@ export function WeeklyMenu() {
       name: "Pulpo al Y Oli",
       description: "Octopus with aioli - tender octopus slices covered in thick creamy aioli sauce",
       price: "$20 per serving",
-      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvY3RvcHVzJTIwYWlvbGl8ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Seafood", "Premium"],
       category: "Main Dishes"
     },
@@ -223,7 +223,7 @@ export function WeeklyMenu() {
       name: "Empanada Gallega de Atún y Tomate",
       description: "Galician tuna and tomato empanada - golden pastry filled with tuna and tomato mixture",
       price: "6x10\": $9 | 9x12\": $16 | 13x13\": $30",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlbXBhbmFkYSUyMHR1bmElMjB0b21hdG98ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Baked", "Seafood"],
       category: "Baked Goods"
     },
@@ -231,7 +231,7 @@ export function WeeklyMenu() {
       name: "Costilla de Res con Arroz al Azafrán",
       description: "Beef rib with saffron rice - tender beef rib pieces with yellow saffron rice and red bell peppers",
       price: "$18 per serving",
-      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiZWVmJTIwcmliJTIwc2FmZnJvbiUyMHJpY2V8ZW58MXx8fHwxNzU4Mzc1NjY3fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      image: "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&h=400&fit=crop&crop=center&q=80",
       tags: ["Beef", "Rice"],
       category: "Main Dishes"
     }
