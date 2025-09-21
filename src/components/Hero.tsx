@@ -24,10 +24,10 @@ export function Hero() {
             Jose Manuel
           </h1>
           <p className="text-xl md:text-2xl text-amber-100 mb-8">
-            Authentic Tortillas & Paellas from Jose&apos;s Kitchen
+            Authentic Spanish Cuisine from Jose Manuel&apos;s Kitchen
           </p>
           <p className="text-lg text-white/90 max-w-2xl mx-auto mb-8">
-            Traditional Spanish tortillas and paellas crafted with passion and delivered fresh to FIU students and Miami locals.
+            Traditional Spanish dishes including tortillas, paellas, stews, desserts, and beverages crafted with passion and delivered fresh to FIU students and Miami locals.
           </p>
         </div>
         

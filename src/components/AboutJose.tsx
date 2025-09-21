@@ -11,18 +11,19 @@ export function AboutJose() {
             </h2>
             <div className="space-y-4 text-gray-700 text-lg">
               <p>
-                José specializes in two authentic Spanish dishes: traditional tortillas and paellas. 
-                His family recipes have been passed down through generations, each technique learned 
-                at his grandmother&apos;s side in Spain.
+                José specializes in authentic Spanish cuisine including traditional tortillas, paellas, 
+                hearty stews, desserts, and beverages. His family recipes have been passed down through 
+                generations, each technique learned at his grandmother&apos;s side in Spain.
               </p>
               <p>
                 From the perfect saffron-to-rice ratio in paella to the creamy texture of authentic 
-                tortilla española, José brings decades of tradition to every dish. He takes pride in 
-                serving the FIU community and Miami locals with these two signature specialties.
+                tortilla española, from hearty cocido madrileño to delicate crema catalana, José brings 
+                decades of tradition to every dish. He takes pride in serving the FIU community and 
+                Miami locals with his complete Spanish menu.
               </p>
               <p>
-                Every tortilla and paella is prepared with the same care José would use for his own 
-                family, bringing authentic Spanish flavors straight from his kitchen to your table.
+                Every dish is prepared with the same care José would use for his own family, bringing 
+                authentic Spanish flavors straight from his kitchen to your table.
               </p>
             </div>
           </div>

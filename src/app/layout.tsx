@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   description: "Experience authentic Spanish tortillas and paellas crafted with passion. Fresh ingredients and traditional recipes delivered to FIU students and Miami locals.",
   keywords: "Spanish food, tortillas, paellas, authentic cuisine, delivery, FIU, Miami",
   authors: [{ name: "Jose Manuel" }],
+  icons: {
+    icon: '/logo.jpeg',
+    shortcut: '/logo.jpeg',
+    apple: '/logo.jpeg',
+  },
 };
 
 export const viewport = {

@@ -20,7 +20,14 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl mb-4 font-serif">Jose Manuel</h3>
+            <div className="flex items-center gap-3 mb-4">
+              <img 
+                src="/logo.jpeg" 
+                alt="Jose Manuel Logo" 
+                className="w-12 h-12 rounded-full object-cover"
+              />
+              <h3 className="text-2xl font-serif">Jose Manuel</h3>
+            </div>
             <p className="text-amber-200 mb-4">
               Authentic Spanish flavors delivered fresh to FIU students and Miami locals. 
               From engineering precision to culinary passion - every dish crafted with love.
