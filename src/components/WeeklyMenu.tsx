@@ -237,8 +237,12 @@ export function WeeklyMenu() {
     }
   ];
 
-  // Get unique categories
-  const categories = [...new Set(menuItems.map(item => item.category))];
+  // Limit to initial marketing categories
+  const allowedCategories = ["Tortillas", "Paellas", "Tapas"];
+  const filteredMenuItems = menuItems.filter(item => allowedCategories.includes(item.category));
+
+  // Get unique categories from filtered list
+  const categories = [...new Set(filteredMenuItems.map(item => item.category))];
   
 
   const scrollToSection = (category: string) => {
@@ -266,7 +270,7 @@ export function WeeklyMenu() {
         <div className="mb-8">
           <div className="flex flex-wrap justify-center gap-2 mb-6">
             {categories.map((category) => {
-              const itemCount = menuItems.filter(item => item.category === category).length;
+              const itemCount = filteredMenuItems.filter(item => item.category === category).length;
               return (
                 <Button
                   key={category}
@@ -287,7 +291,7 @@ export function WeeklyMenu() {
 
         {/* Menu Section - Show only selected category */}
         {(() => {
-          const categoryItems = menuItems.filter(item => item.category === activeCategory);
+          const categoryItems = filteredMenuItems.filter(item => item.category === activeCategory);
           return (
             <div className="mb-16">
               <h3 className="text-2xl md:text-3xl text-amber-900 mb-6 font-serif border-b-2 border-amber-200 pb-2">
