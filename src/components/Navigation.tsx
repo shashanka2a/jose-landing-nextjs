@@ -13,6 +13,14 @@ export function Navigation() {
     setIsOpen(false);
   };
 
+  const handleWhatsAppOrder = () => {
+    const message = encodeURIComponent(
+      "Hola José! I'd like to place an order for Jose Manuel. Could you please share today's available menu?"
+    );
+    window.open(`https://wa.me/15616632564?text=${message}`, '_blank');
+    setIsOpen(false);
+  };
+
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-amber-200">
       <div className="max-w-6xl mx-auto px-4">
@@ -56,10 +64,10 @@ export function Navigation() {
               Contact
             </button>
             <Button 
-              onClick={() => scrollToSection('order')}
+              onClick={handleWhatsAppOrder}
               className="bg-amber-600 hover:bg-amber-700 text-white"
             >
-              Order Now
+              Order on WhatsApp
             </Button>
           </div>
 
@@ -106,10 +114,10 @@ export function Navigation() {
               </button>
               <div className="px-3 py-2">
                 <Button 
-                  onClick={() => scrollToSection('order')}
+                  onClick={handleWhatsAppOrder}
                   className="w-full bg-amber-600 hover:bg-amber-700 text-white"
                 >
-                  Order Now
+                  Order on WhatsApp
                 </Button>
               </div>
             </div>

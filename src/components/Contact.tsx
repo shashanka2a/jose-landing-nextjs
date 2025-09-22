@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card";
 import { Button } from "./ui/button";
-import { MapPin, Phone, Clock, MessageCircle, Instagram } from "lucide-react";
+import { MapPin, Clock, MessageCircle } from "lucide-react";
 
 export function Contact() {
   const handleWhatsApp = () => {
@@ -10,10 +10,6 @@ export function Contact() {
       "Hola José! I have a question about Jose Manuel."
     );
     window.open(`https://wa.me/15616632564?text=${message}`, '_blank');
-  };
-
-  const handleInstagram = () => {
-    window.open('https://instagram.com/porobraygacia_', '_blank');
   };
 
   return (
@@ -59,32 +55,21 @@ export function Contact() {
 
           <Card className="text-center hover:shadow-lg transition-shadow md:col-span-2 lg:col-span-1">
             <CardHeader>
-              <Phone className="w-12 h-12 mx-auto mb-4 text-amber-600" />
+              <MessageCircle className="w-12 h-12 mx-auto mb-4 text-amber-600" />
               <CardTitle className="text-amber-900">Contact</CardTitle>
             </CardHeader>
             <CardContent>
               <CardDescription className="text-gray-600 mb-4">
                 WhatsApp: +1 (561) 663-2564<br />
-                Email: jose@porobraygacia.com<br />
-                Instagram: @porobraygacia_
+                Message José directly for orders and questions
               </CardDescription>
-              <div className="flex gap-3 justify-center">
-                <Button 
-                  onClick={handleWhatsApp}
-                  className="bg-green-600 hover:bg-green-700 text-white flex items-center gap-2"
-                >
-                  <MessageCircle className="w-4 h-4" />
-                  WhatsApp
-                </Button>
-                <Button 
-                  onClick={handleInstagram}
-                  variant="outline"
-                  className="border-pink-500 text-pink-500 hover:bg-pink-50 flex items-center gap-2"
-                >
-                  <Instagram className="w-4 h-4" />
-                  Instagram
-                </Button>
-              </div>
+              <Button 
+                onClick={handleWhatsApp}
+                className="bg-green-600 hover:bg-green-700 text-white flex items-center gap-2 mx-auto"
+              >
+                <MessageCircle className="w-4 h-4" />
+                Message on WhatsApp
+              </Button>
             </CardContent>
           </Card>
         </div>

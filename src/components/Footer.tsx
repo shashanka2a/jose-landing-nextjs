@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { Heart, Instagram, MessageCircle } from "lucide-react";
+import { Heart, MessageCircle } from "lucide-react";
 
 export function Footer() {
   const handleWhatsApp = () => {
@@ -9,10 +9,6 @@ export function Footer() {
       "Hola José! I have a question about Jose Manuel."
     );
     window.open(`https://wa.me/15616632564?text=${message}`, '_blank');
-  };
-
-  const handleInstagram = () => {
-    window.open('https://instagram.com/porobraygacia_', '_blank');
   };
 
   return (
@@ -42,13 +38,6 @@ export function Footer() {
                 aria-label="WhatsApp"
               >
                 <MessageCircle className="w-6 h-6" />
-              </button>
-              <button 
-                onClick={handleInstagram}
-                className="text-amber-200 hover:text-white transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-6 h-6" />
               </button>
             </div>
           </div>
@@ -89,7 +78,6 @@ export function Footer() {
             <h4 className="text-lg mb-4">Contact</h4>
             <div className="space-y-2 text-amber-200">
               <p>WhatsApp: +1 (561) 663-2564</p>
-              <p>Email: jose@josemanuel.com</p>
               <p>Service Area: Miami-Dade County</p>
               <p className="text-sm mt-4">
                 Tuesday - Sunday: 11 AM - 7 PM<br />

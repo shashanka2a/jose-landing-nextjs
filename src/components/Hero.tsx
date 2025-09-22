@@ -3,6 +3,13 @@ import { Button } from "./ui/button";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function Hero() {
+  const handleWhatsAppOrder = () => {
+    const message = encodeURIComponent(
+      "Hola José! I'd like to place an order for Jose Manuel. Could you please share today's available menu?"
+    );
+    window.open(`https://wa.me/15616632564?text=${message}`, '_blank');
+  };
+
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -37,7 +44,7 @@ export function Hero() {
             Authentic Spanish Cuisine from Jose Manuel&apos;s Kitchen
           </p>
           <p className="text-lg text-white/90 max-w-2xl mx-auto mb-8">
-            Traditional Spanish dishes including tortillas, paellas, stews, desserts, and beverages crafted with passion and delivered fresh to FIU students and Miami locals.
+            Traditional Spanish dishes including tortillas, paellas, and tapas crafted with passion and delivered fresh to FIU students and Miami locals.
           </p>
         </div>
         
@@ -53,9 +60,9 @@ export function Hero() {
             size="lg" 
             variant="outline" 
             className="border-white text-black bg-white hover:bg-gray-100 hover:text-black px-8 py-3 text-lg"
-            onClick={() => document.getElementById('order')?.scrollIntoView({ behavior: 'smooth' })}
+            onClick={handleWhatsAppOrder}
           >
-            Order Now
+            Order on WhatsApp
           </Button>
         </div>
       </div>
